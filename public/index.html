@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Data Fetcher</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Data output container where messages will be displayed -->
+    <div id="dataOutput"></div>
+
+    <div class="row">
+        <div class="column left-half">
+            <label for="custID1" class="label">CustID:</label>
+            <input type="text" id="custID1" name="custID1" class="input-field">
+            <button id="fetchData1Btn" class="action-button">NYC Analysis</button>
+            <div id="loading1" class="loading">Loading...</div>
+            <div id="timer1" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output1" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+	 <div class="row">
+        <div class="column left-half">
+         <label for="custID2" class="label">CustID:</label>
+        <input type="text" id="custID2" name="custID2" class="input-field">
+		<button id="fetchData2Btn" class="action-button">Creating Folder</button>
+            <div id="loading2" class="loading">Loading...</div>
+            <div id="timer2" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output2" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID3" class="label">CustID:</label>
+        <input type="text" id="custID3" name="custID3" class="input-field">
+		<button id="fetchData3Btn" class="action-button">NYC docs</button>
+            <div id="loading3" class="loading">Loading...</div>
+            <div id="timer3" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output3" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID4" class="label">CustID:</label>
+        <input type="text" id="custID4" name="custID4" class="input-field">
+		<button id="fetchData4Btn" class="action-button">Update NYC docs</button>
+            <div id="loading4" class="loading">Loading...</div>
+            <div id="timer4" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output4" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">          
+        <div class="column left-half">
+        <label for="custID5" class="label">CustID:</label>
+        <input type="text" id="custID5" name="custID5" class="input-field">
+		<button id="fetchData5Btn" class="action-button">NYC closeout</button>
+            <div id="loading5" class="loading">Loading...</div>
+            <div id="timer5" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output5" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID6" class="label">CustID:</label>
+        <input type="text" id="custID6" name="custID6" class="input-field">
+		<button id="fetchData6Btn" class="action-button">Account/meter number fillout</button>
+            <div id="loading6" class="loading">Loading...</div>
+            <div id="timer6" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output6" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID7" class="label">CustID:</label>
+        <input type="text" id="custID7" name="custID7" class="input-field">
+		<button id="fetchData7Btn" class="action-button">Interconnection fillout</button>
+            <div id="loading7" class="loading">Loading...</div>
+            <div id="timer7" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output7" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID8" class="label">CustID:</label>
+        <input type="text" id="custID8" name="custID8" class="input-field">
+		<button id="fetchData8Btn" class="action-button">PAM# fillout</button>
+            <div id="loading8" class="loading">Loading...</div>
+            <div id="timer8" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output8" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID9" class="label">CustID:</label>
+        <input type="text" id="custID9" name="ustID9" class="input-field">
+		<button id="fetchData9Btn" class="action-button">PTO fillout</button>
+            <div id="loading9" class="loading">Loading...</div>
+            <div id="timer9" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output9" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID10" class="label">CustID:</label>
+        <input type="text" id="custID10" name="custID10" class="input-field">
+		<button id="fetchData10Btn" class="action-button">Shade fillout</button>
+            <div id="loading10" class="loading">Loading...</div>
+            <div id="timer10" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output10" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID11" class="label">CustID:</label>
+        <input type="text" id="custID11" name="custID11" class="input-field">
+		<button id="fetchData11Btn" class="action-button">Apply nyserda</button>
+            <div id="loading11" class="loading">Loading...</div>
+            <div id="timer11" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output11" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+	
+		 <div class="row">
+        <div class="column left-half">
+        <label for="custID12" class="label">CustID:</label>
+        <input type="text" id="custID12" name="custID12" class="input-field">
+		<button id="fetchData12Btn" class="action-button">download contract</button>
+            <div id="loading12" class="loading">Loading...</div>
+            <div id="timer12" class="timer">Time: 0s</div>
+        </div>
+        <div class="column right-half">
+            <div id="output12" class="output">Output will be displayed here...</div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loading" style="display: none;">Loading...</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
