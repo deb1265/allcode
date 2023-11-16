@@ -6,6 +6,12 @@
   "scripts": {
     "start": "node app.js"
   },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "dependencies": {
     "@adobe/pdfservices-node-sdk": "^3.4.2",
     "@google-cloud/local-auth": "^2.1.0",
